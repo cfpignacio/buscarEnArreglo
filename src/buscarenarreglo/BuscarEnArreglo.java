@@ -25,6 +25,7 @@ public class BuscarEnArreglo {
         Boolean busqueda = false;
         
         
+        // Boolean busqueda = buscar(numeros,numeroS)
         // Funcion que pida un arreglo y un numero , y que nos devuelva true si lo encontro 
         // false si no lo encontro.
         
