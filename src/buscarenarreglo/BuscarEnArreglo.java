@@ -23,7 +23,11 @@ public class BuscarEnArreglo {
         int numeroS = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero que quiere buscar "));
 
         Boolean busqueda = false;
-
+        
+        
+        // Funcion que pida un arreglo y un numero , y que nos devuelva true si lo encontro 
+        // false si no lo encontro.
+        
         for (int n : numeros) {
             if (n == numeroS) {
                 busqueda = true;
